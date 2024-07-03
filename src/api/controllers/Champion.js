@@ -22,7 +22,7 @@ const getChampionsById = async (req, res, next) => {
 const getChampionsByRole = async (req, res, next) => {
   try {
     const { role } = req.params;
-    const champions = await Champion.findById({ role });
+    const champions = await Champion.find({ role });
     return res.status(200).json(champions);
   } catch (error) {
     return res.status(404).json("Error");
