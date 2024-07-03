@@ -79,7 +79,65 @@ const bilgewater = [
   },
 ];
 
-const demacia = [];
+const demacia = [
+  {
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
+    name: "Gangplank",
+    role: ["fighter"],
+  },
+];
 
 const freljord = [];
 
