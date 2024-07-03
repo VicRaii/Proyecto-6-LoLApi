@@ -81,82 +81,636 @@ const bilgewater = [
 
 const demacia = [
   {
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/2243b24de875e9db0e20903e111a569ba00f91b7-1215x717.jpg",
+    name: "Fiora",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/453347eabd10e239e18bdaf2431f3471d1011dbd-1215x717.jpg",
+    name: "Galio",
+    role: ["tank"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/1bdf6576f5940b47f7eecc73545d8c80050cbd80-1215x717.jpg",
+    name: "Garen",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/a078dc1670a0b2565aaaf9d50d3e10ec2d583498-1215x717.jpg",
+    name: "Jarvan IV",
+    role: ["tank"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/e542dbab1925ff2d1fdddaf60a8412b6095ee316-1920x1149.jpg",
+    name: "Kayle",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/7dae022eb3726b7b351cf90ad8351731907229a1-1215x717.jpg",
+    name: "Lux",
+    role: ["mage"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/dc1bbb10a4d5ed7946d6a7eb12de7324309be314-1920x1149.jpg",
+    name: "Morgana",
+    role: ["mage"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/0fb0e7692c05c9b0ab8b4d3e53fafcdf4bbdf985-1215x717.jpg",
+    name: "Poppy",
+    role: ["tank"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/c184e107070eb49041d26b2d681424d120abe1b6-1215x717.jpg",
+    name: "Quinn",
+    role: ["marksman"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/3a3eacd9c6ff7ca76a309611a508b9416fe3c01c-1215x717.jpg",
+    name: "Shyvana",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/5244dd28bd065e6247105381854a18df3900ec73-1215x717.jpg",
+    name: "Sona",
+    role: ["support"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/e653368823aa1fbaf7955ce92bca15a81abc8440-1920x1190.jpg",
+    name: "Sylas",
+    role: ["mage"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/beb13350daed0456c1f0feb6b0e8175c23443ebe-1215x717.jpg",
+    name: "Vayne",
+    role: ["marksman"],
+  },{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},
+];
+
+const freljord = [
+  {
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },{
-    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/56398a8fa872cb9b195e5b78b611b3952bf1108a-1215x717.jpg",
-    name: "Gangplank",
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
+    role: ["fighter"],
+  },{
+    img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+    name: "Xin Zhao",
     role: ["fighter"],
   },
 ];
 
-const freljord = [];
+const ionia = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const ionia = [];
+const ixtal = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const ixtal = [];
+const targon = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const targon = [];
+const noxus = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const noxus = [];
+const piltover = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const piltover = [];
+const shurima = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const shurima = [];
+const shadowIsles = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const shadowIsles = [];
+const runeterra = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const runeterra = [];
+const theVoid = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
 
-const theVoid = [];
-
-const zaun = [];
+const zaun = [{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},{
+  img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/d642b6273b4278a659d2933a93d3218c05f196e5-1920x1133.jp",
+  name: "Xin Zhao",
+  role: ["fighter"],
+},];
