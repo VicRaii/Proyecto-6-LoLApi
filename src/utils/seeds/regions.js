@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Champion = require("../../api/models/Champion");
-const champions = require("../../data/champions");
+const Region = require("../../api/models/Region");
+const regions = require("../../data/regions");
 
 const launchSeed = async () => {
   try {
@@ -10,11 +10,11 @@ const launchSeed = async () => {
     );
     console.log("Connected to MongoDB");
 
-    await Champion.collection.drop();
-    console.log("Champions collection dropped");
+    await Region.collection.drop();
+    console.log("Regions collection dropped");
 
-    await Champion.insertMany(champions.bandleCity);
-    console.log("Champions inserted");
+    await Region.insertMany(regions);
+    console.log("Regions inserted");
 
     await mongoose.disconnect();
     console.log("Disconnected from database");

@@ -5,7 +5,7 @@ const championSchema = new mongoose.Schema(
     img: { type: String, required: true },
     name: { type: String, required: true },
     role: {
-      type: String,
+      type: [String],
       required: true,
       enum: ["fighter", "assasin", "marksman", "tank", "mage", "support"],
     },
