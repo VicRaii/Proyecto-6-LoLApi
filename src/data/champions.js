@@ -7,7 +7,7 @@ const bandleCity = [
   {
     img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/8cadd76b5624b8dab1cafbdfe04ee285197dd594-1215x717.jpg",
     name: "Lulu",
-    role: "support",
+    role: ["support", "mage"],
   },
   {
     img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/96575d035661d8c3238a1a8f098aebefb5641862-1215x717.jpg",
@@ -416,6 +416,8 @@ const targon = [
     img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/08e9f794f7bb45bf947e2196cca27b1abb5959f8-1215x717.jpg",
     name: "Taric",
     role: "support",
+  },
+  {
     img: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/6e574007f48ff528ad0f58e0bdd7c7e465c6be2e-1920x1135.jpg",
     name: "Zoe",
     role: "mage",
@@ -878,7 +880,7 @@ const zaun = [
   },
 ];
 
-const champions = {
+module.exports = {
   bandleCity,
   bilgewater,
   demacia,
@@ -894,5 +896,3 @@ const champions = {
   theVoid,
   zaun,
 };
-
-module.exports = champions;
