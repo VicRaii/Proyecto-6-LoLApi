@@ -3,10 +3,12 @@ const express = require("express");
 const { connectDB } = require("./src/config/db");
 const championsRouter = require("./src/api/routes/Champion");
 const regionsRouter = require("./src/api/routes/Region");
+const cors = require("cors");
 
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 connectDB();
 

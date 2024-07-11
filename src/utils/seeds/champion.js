@@ -20,9 +20,7 @@ const {
 const launchSeed = async () => {
   try {
     console.log("Connecting to MongoDB...");
-    await mongoose.connect(
-      "mongodb+srv://VMRP:Pcd59YrVJwhHSoe1@cluster0.pqrrosp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    );
+    await mongoose.connect(process.env.DB_URL);
     console.log("Connected to MongoDB");
 
     await Champion.collection.drop();

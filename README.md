@@ -1,6 +1,6 @@
 ###### Proyecto-6-LoLApi
 
-Este proyecto proporciona una API para manejar información sobre campeones. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en los campeones.
+Este proyecto proporciona una API para manejar información sobre campeones del videojuego League of Legends. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en los campeones.
 
 ## Controladores
 

@@ -21,6 +21,8 @@ const getRegionById = async (req, res, next) => {
 
 const postRegion = async (req, res, next) => {
   try {
+    req.body.champions = [...new Set(req.body.champions)];
+
     const newRegion = new Region(req.body);
     const regionSaved = await newRegion.save();
     return res.status(201).json(regionSaved);
@@ -33,9 +35,15 @@ const putRegion = async (req, res, next) => {
   try {
     const { id } = req.params;
     const oldRegion = await Region.findById(id);
+
+    const allChampions = [
+      ...new Set([...oldRegion.champions, ...req.body.champions]),
+    ];
+
     const newRegion = new Region(req.body);
     newRegion._id = id;
-    newRegion.champions = [...oldRegion.champions, ...req.body.champions];
+    newRegion.champions = allChampions;
+
     const regionUpdated = await Region.findByIdAndUpdate(id, newRegion, {
       new: true,
     });
